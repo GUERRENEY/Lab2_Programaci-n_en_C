@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
+//Se define la variabale a usar
 int rangoRango(int A,int B, int C);
 
 int main(void) {
@@ -13,13 +13,10 @@ int main(void) {
    int result1 = 0;
    
    result1 = rangoRango(a, b, c);
-  
-   //printf("Resultado: %d\n" , result1);
-   serieFibonacci();
 }
 
 
-
+// esta funcion cuenta cuantos numeros hay entre A y B tomandolos a ellos dentro del rango tambien
 int rangoRango(int A,int B, int K){
   
   int contador=0;
